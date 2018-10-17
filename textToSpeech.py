@@ -13,5 +13,3 @@ def speak(object):
   print("Speaking "+str(object))
   mixer.music.play()
   time.sleep(2)
-
-  # os.remove('./object.mp3')
