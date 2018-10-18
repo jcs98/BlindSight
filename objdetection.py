@@ -25,7 +25,7 @@ vs = VideoStream(src=0).start()
 fps = FPS().start()
 flag = False # Camera will keep running until this flag is set to True
 objectsFound = []
-NUMBER_OF_OBJECTS_TO_BE_DETECTED = 3
+NUMBER_OF_OBJECTS_TO_BE_DETECTED = 1
 
 # loop over the frames from the video stream
 while True:
